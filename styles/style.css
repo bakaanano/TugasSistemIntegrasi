@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: 100hv;
+    background-color: #f0f4f8;
+}
+
+header{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+#map{
+    flex: 1;
+    width: 100vw;
+    height: calc(100hv - 70hv - 50px);
+    z-index: 1;
+}
+
+footer{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: auto;
+}
