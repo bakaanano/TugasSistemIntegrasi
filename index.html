@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenStreetMap - Malang Districts (Full Screen)</title>
-    <link = rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    <link = rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
@@ -14,6 +14,17 @@
     <div id="map"></div>
     <footer>Dibuat oleh Ahmad Taufiq Andriono - 22083000119</footer>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="scripts/script.js"></script>
+
+    <!-- Modal -->
+    <div id="weatherModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideModal()">&times;</span>
+            <div id="weatherModalContent">
+                <!-- Content will be loaded here -->
+            </div>
+        </div>
+    </div>
 </body>
 </html>
